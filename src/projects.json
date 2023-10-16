@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Budget application",
+            "imageUrl": "../images/budget.png",
+            "link": "https://control-your-budget-liard.vercel.app"
+        },
+        {
+            "id": 2,
+            "title": "Banking application",
+            "imageUrl": "../images/banking-app.png",
+            "link": "https://banking-app-jade-phi.vercel.app"
+        },
+        {
+            "id": 3,
+            "title": "Currency exchange",
+            "imageUrl": "../images/currency.png",
+            "link": "https://forex-exchange-eight.vercel.app"
+        },
+        {
+            "id": 3,
+            "title": "Currency exchange",
+            "imageUrl": "../images/currency.png",
+            "link": "https://forex-exchange-eight.vercel.app"
+        },
+        {
+            "id": 4,
+            "title": "Ping Pong game",
+            "imageUrl": "../images/pingpong.png",
+            "link": "https://ping-pong-arcade.vercel.app"
+        },
+        {
+            "id": 5,
+            "title": "Snake game",
+            "imageUrl": "../images/snake.png",
+            "link": "https://snake-game-rust-five.vercel.app"
+        },
+        {
+            "id": 6,
+            "title": "Sushi restaurant landing page",
+            "imageUrl": "../images/sushi-restaurant.png",
+            "link": "https://sushiweb-beta.vercel.app"
+        },
+        {
+            "id": 7,
+            "title": "To do react app",
+            "imageUrl": "../images/todo.png",
+            "link": "https://todo-react-three-murex.vercel.app"
+        }
+    ]
+}
