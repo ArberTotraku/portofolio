@@ -1,10 +1,11 @@
 import React from "react";
 import About from "./pages/About.jsx";
-import Footer from "./pages/Contact.jsx";
+import Footer from "./pages/Footer.jsx";
 import Projects from "./pages/Projects.jsx";
 import "./App.css";
 import Header from "./pages/Header.jsx";
 import Nav from "../src/components/Hamburger.jsx";
+import Contact from "./pages/Contact.jsx"
 // import HamburgerMenu from './components/HamburgerMenu.jsx'
 // import Navbar from './pages/Navbar.jsx'
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Header />
       <About />
       <Projects />
+      <Contact/>
       <Footer />
     </div>
   );
