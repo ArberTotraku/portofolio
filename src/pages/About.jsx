@@ -10,7 +10,7 @@ const About = () => {
                     <img
                         src={profile}
                         alt="Arber Totraku"
-                        className="w-100 h-100 rounded mx-auto mb-5"
+                        className="w-90 h-90 rounded mx-auto mb-5"
                     />
                     <p className="text-gray-700 text-center">
                         Hi, I'm Arber Totraku, a passionate full stack web developer with a focus on creating
