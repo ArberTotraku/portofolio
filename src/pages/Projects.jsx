@@ -7,6 +7,7 @@ import Snake from "../images/snake.png";
 import Sushi from "../images/sushi-restaurant.png";
 import ToDo from "../images/todo.png";
 import { SocialIcon } from "react-social-icons";
+import Button from "../components/Button.jsx";
 const projectsData = {
   projects: [
     {
@@ -59,19 +60,19 @@ const projectsData = {
 const Projects = () => {
   return (
     <>
-        <div className="container mx-auto p-3 justify-center" >
+        <div className="container mx-auto p-3 justify-center bg-gray-800 text-white" >
     <h1 className="text-5xl bold">My projects:</h1>
       <p className="text-2xl">
         Please note that not everything is included, you can find more in my
-        github account <SocialIcon url="https://github.com/arbertotraku" />
+        github account: <SocialIcon url="https://github.com/arbertotraku" />
       </p>
       </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-gray-800 text-white">
      
       {projectsData.projects.map((project) => (
         <div
           key={project.id}
-          className="bg-white shadow-md rounded-md p-4 hover:shadow-lg transition duration-300"
+          className="shadow-md rounded-md p-4 hover:shadow-lg transition duration-300 bg-gray-500 text-white text-center"
         >
           <img
             src={project.imageSrc}
@@ -88,7 +89,10 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline align-center"
           >
+            <Button>
+
             View Project
+            </Button>
           </a>
         </div>
       ))}

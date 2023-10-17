@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.jsx"
 // import Navbar from './pages/Navbar.jsx'
 const App = () => {
   return (
-    <div>
+    <div className="bg-gray-800 text-white">
       <h1 className="text-3xl font-bold underline m-0 auto">Hello world!</h1>
       {/* <Navbar/> */}
       {/* <HamburgerMenu/> */}
