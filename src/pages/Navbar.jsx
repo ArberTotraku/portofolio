@@ -7,13 +7,13 @@ import Projects from "./Projects";
 
 const Navbar = () => {
   return (
-<NavLink>
+{/* <NavLink>
 
 <Link>Home</Link>
 <Link>Home</Link>
 <Link>Home</Link>
    
-</NavLink>
+</NavLink> */}
 
     )
 }
