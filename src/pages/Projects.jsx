@@ -6,6 +6,7 @@ import PingPong from "../images/pingpong.png"
 import Snake from "../images/snake.png"
 import Sushi from "../images/sushi-restaurant.png"
 import ToDo from "../images/todo.png"
+import { SocialIcon } from 'react-social-icons';
 const projectsData = {
     projects: [
         {
@@ -56,7 +57,8 @@ const projectsData = {
 const Projects = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-
+<h3>My projects:</h3>
+<p>Please note that not everything is included, you can find more in my github account <SocialIcon url='https://github.com/arbertotraku'/></p>
             {projectsData.projects.map((project) => (
                 <div
                     key={project.id}
