@@ -2,6 +2,7 @@ import React from 'react'
 import About from './pages/About.jsx'
 import Footer from './pages/Contact.jsx'
 import Projects from './pages/Projects.jsx'
+import "./App.css"
 const App = () => {
   return (
     <div>
