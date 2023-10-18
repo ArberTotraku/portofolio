@@ -21,6 +21,10 @@ const About = () => {
                     <p className="text-white text-center mt-4">
                         In my free time, I enjoy traveling, swimming and playing chess. So if you think that you're better then me in chess, you are absolutely right. I am also a big fan of espresso. I think that espresso has the magic to turn coffee into code.
                     </p>
+                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-3">
+  <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+  <span> <a href="./myCv.pdf" download="myCv.pdf">Download my Cv here</a></span>
+</button>
                 </div>
             </div>
         </div>
