@@ -9,6 +9,11 @@ const blogData = [
         content: 'Incididunt ut labore et dolore magna aliqua. Ut enim ad minim...',
         imageUrl: 'https://via.placeholder.com/400x300',
     },
+    {
+        title: 'Great News for technology',
+        content: 'Incididunt ut labore et dolore magna aliqua. Ut enim ad minim...',
+        imageUrl: 'https://via.placeholder.com/400x300',
+    }
    
 ];
 
