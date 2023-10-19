@@ -7,6 +7,7 @@ import Header from "./pages/Header.jsx";
 import Nav from "../src/components/Hamburger.jsx";
 import Contact from "./pages/Contact.jsx"
 import Blog from "./pages/Blog.jsx";
+import ComingSoon from "./pages/ComingSoon.jsx";
 // import HamburgerMenu from './components/HamburgerMenu.jsx'
 // import Navbar from './pages/Navbar.jsx'
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Header />
       <About />
       <Projects />
+      <ComingSoon/>
       <Contact/>
       <Blog/>
       <Footer />
