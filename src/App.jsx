@@ -8,6 +8,9 @@ import Nav from "../src/components/Hamburger.jsx";
 import Contact from "./pages/Contact.jsx"
 import Blog from "./pages/Blog.jsx";
 import ComingSoon from "./pages/ComingSoon.jsx";
+// import { Route , Routes} from "react-router-dom";
+// import Layout from "./pages/Layout.jsx";
+// import Home from "./pages/Home.jsx";
 // import HamburgerMenu from './components/HamburgerMenu.jsx'
 // import Navbar from './pages/Navbar.jsx'
 const App = () => {
@@ -24,6 +27,19 @@ const App = () => {
       <Contact/>
       <Blog/>
       <Footer />
+     
+{/* 
+      <Routes>
+        <Route path="/" element={<Layout />} >
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
+
+</Route>
+      </Routes> */}
+      <Footer/>
     </div>
   );
 };
