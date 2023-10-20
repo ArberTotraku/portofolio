@@ -1,20 +1,15 @@
-const blogData = [
-    {
-        title: 'Beautiful Landscape',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-        imageUrl: 'https://via.placeholder.com/400x300',
-    },
-    {
-        title: 'Exciting Adventures',
-        content: 'Incididunt ut labore et dolore magna aliqua. Ut enim ad minim...',
-        imageUrl: 'https://via.placeholder.com/400x300',
-    },
-    {
-        title: 'Great News for technology',
-        content: 'Incididunt ut labore et dolore magna aliqua. Ut enim ad minim...',
-        imageUrl: 'https://via.placeholder.com/400x300',
-    }
-   
-];
+import dotenv from "dotenv";
+dotenv.config();
+
+const blogData = () => {
+  fetch(
+    `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}`
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      data.articles;
+    })
+    .catch((error) => error.message);
+};
 
 export default blogData;
