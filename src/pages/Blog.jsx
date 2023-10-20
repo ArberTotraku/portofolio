@@ -20,7 +20,7 @@
 // export default Blog;
 
 import React, { useState, useEffect } from 'react';
-import BlogData from '../BlogData.jsx'; // Assuming blogData is in the same directory
+import BlogData from '../BlogData.jsx'; 
 
 function BlogList() {
   const [articles, setArticles] = useState([]);
@@ -42,6 +42,7 @@ function BlogList() {
     <div className="container bg-gray-800 mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4 text-center">NEWS BLOG:</h1>
       <p className='text-center mb-3'>Articles are via a REST API and they are real time news</p>
+      <span className='text-center mb-2'>loading...</span>
       <ul>
         {articles.map((article, index) => (
           <li key={index} className="mb-4 bg-gray-700 p-2">

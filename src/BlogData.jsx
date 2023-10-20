@@ -1,7 +1,9 @@
+
+
 const BlogData = async () => {
     try {
       const response = await fetch(
-        'https://newsapi.org/v2/top-headlines?country=us&apiKey=fb921efd2b50464087fa45e81a5c3ab0'
+        `https://newsapi.org/v2/top-headlines?country=fr&apiKey=apikey.js`
       );
       
       if (!response.ok) {
