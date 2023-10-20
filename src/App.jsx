@@ -6,7 +6,7 @@ import "./App.css";
 import Header from "./pages/Header.jsx";
 import Nav from "../src/components/Hamburger.jsx";
 import Contact from "./pages/Contact.jsx"
-import Blog from "./pages/Blog.jsx";
+import Blog from "./pages/Blog.jsx"
 import ComingSoon from "./pages/ComingSoon.jsx";
 // import { Route , Routes} from "react-router-dom";
 // import Layout from "./pages/Layout.jsx";
