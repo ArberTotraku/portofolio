@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import openai from 'openai';
+import OpenAI from 'openai';
+
 import sendMessage from '../utils/sendMessage.js'; 
 
-openai.apiKey = 'sk-f3XkkGkymb72413e6e12T3BlbkFJRImnpuNrIvpKxST6'
 
 
 function ChatComponent() {
@@ -12,12 +12,14 @@ function ChatComponent() {
   
     const handleUserInput = async () => {
       const response = await sendMessage(userInput);
+      console.log('response',response);
       setChatHistory([...chatHistory, { message: userInput, type: 'user' }, { message: response, type: 'bot' }]);
       setUserInput('');
     };
   
     return (
       <div className="bg-gray-100 p-4 rounded-lg">
+        <h1 className='text-2xl text-black text-center'>Arber bot in interaction with ChatGPT</h1>
         <div className="h-64 overflow-y-auto">
           {chatHistory.map((chat, index) => (
             <div key={index} className={`mb-2 p-2 ${chat.type === 'user' ? 'bg-blue-100 text-black' : 'bg-red-700 text-black'} rounded-lg p-4 m-2`}>
@@ -40,7 +42,7 @@ function ChatComponent() {
             Send
           </button>
         </div>
-      </div>
+      </div>      
     );
   }
   
