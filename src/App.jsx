@@ -7,7 +7,7 @@ import Header from "./pages/Header.jsx";
 import Nav from "../src/components/Hamburger.jsx";
 import Contact from "./pages/Contact.jsx"
 import Blog from "./pages/Blog.jsx"
-import ComingSoon from "./pages/ComingSoon.jsx";
+import ChatComponent from "./components/ChatComponent.jsx";
 // import { Route , Routes} from "react-router-dom";
 // import Layout from "./pages/Layout.jsx";
 // import Home from "./pages/Home.jsx";
@@ -23,7 +23,7 @@ const App = () => {
       <Header />
       <About />
       <Projects />
-      <ComingSoon/>
+      <ChatComponent/>
       <Contact/>
       <Blog/>
       <Footer />
