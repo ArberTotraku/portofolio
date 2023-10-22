@@ -1,8 +1,7 @@
 import OpenAI from 'openai';
-import dotenv from "dotenv"
-dotenv.config()
 
-const openai = new OpenAI({ key: process.env.OPEN_AI_KEY });
+
+const openai = new OpenAI({ key: 'My API KEY'});
 
 async function sendMessage(userInput) {
   try {

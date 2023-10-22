@@ -7,12 +7,13 @@ import Header from "./pages/Header.jsx";
 import Nav from "../src/components/Hamburger.jsx";
 import Contact from "./pages/Contact.jsx"
 import Blog from "./pages/Blog.jsx"
-import ChatComponent from "./components/ChatComponent.jsx";
+// import ChatComponent from "./components/ChatComponent.jsx";
 // import { Route , Routes} from "react-router-dom";
 // import Layout from "./pages/Layout.jsx";
 // import Home from "./pages/Home.jsx";
 // import HamburgerMenu from './components/HamburgerMenu.jsx'
 // import Navbar from './pages/Navbar.jsx'
+import ComingSoon from "./pages/ComingSoon.jsx"
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       <Header />
       <About />
       <Projects />
-      <ChatComponent/>
+      {/* <ChatComponent/> */}
+<ComingSoon/>
       <Contact/>
       <Blog/>
       <Footer />
