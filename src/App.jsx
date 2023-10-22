@@ -13,6 +13,7 @@ import ChatComponent from "./components/ChatComponent.jsx";
 // import Home from "./pages/Home.jsx";
 // import HamburgerMenu from './components/HamburgerMenu.jsx'
 // import Navbar from './pages/Navbar.jsx'
+
 const App = () => {
   return (
     <div className="bg-gray-800 text-white">
