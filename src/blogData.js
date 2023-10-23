@@ -1,5 +1,6 @@
-import dotenv from "dotenv"
-dotenv.config()
+// import dotenv from "dotenv"
+// import process from "process"
+// dotenv.config()
 
 const blogData = async () => {
     try {
