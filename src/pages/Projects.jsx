@@ -62,10 +62,13 @@ const Projects = () => {
     <>
         <div className="container mx-auto p-3 justify-center bg-gray-800 text-white text-center" >
     <h1 className="text-4xl bold mb-2">My projects:</h1>
-      <p className="text-1xl">
+
+
+      <div className="text-1xl">
         Please note that not everything is included, you can find more in my
         github account: <SocialIcon url="https://github.com/arbertotraku" />
-      </p>
+      </div>
+
       </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-gray-800 text-white">
      

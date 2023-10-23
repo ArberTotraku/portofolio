@@ -5,7 +5,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-        <img src={under} alt="" srcset=""   className="w-90 h-90 rounded mx-auto mb-5"/>
+        <img src={under} alt="" srcSet=""   className="w-90 h-90 rounded mx-auto mb-5"/>
     </div>
   )
 }
