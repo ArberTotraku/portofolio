@@ -20,7 +20,7 @@
 // export default Blog;
 
 import React, { useState, useEffect } from 'react';
-import BlogData from '../BlogData.jsx'; 
+import blogData from '../blogData.js'; 
 
 function BlogList() {
   const [articles, setArticles] = useState([]);
@@ -28,7 +28,7 @@ function BlogList() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const data = await BlogData();
+        const data = await blogData();
         setArticles(data.slice(0,4));
       } catch (error) {
         console.error(error);

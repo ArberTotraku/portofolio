@@ -1,9 +1,9 @@
+import dotenv from "dotenv"
 
-
-const BlogData = async () => {
+const blogData = async () => {
     try {
       const response = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=fr&apiKey=apikey.js`
+        `https://newsapi.org/v2/top-headlines?country=fr&apiKey${process.env.api_key}`
       );
       
       if (!response.ok) {
@@ -18,5 +18,5 @@ const BlogData = async () => {
     }
   };
   
-  export default BlogData;
+  export default blogData;
   
