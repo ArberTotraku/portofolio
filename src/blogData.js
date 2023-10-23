@@ -1,9 +1,10 @@
 import dotenv from "dotenv"
+dotenv.config()
 
 const blogData = async () => {
     try {
       const response = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=fr&apiKey${process.env.api_key}`
+        `https://newsapi.org/v2/top-headlines?country=en&apiKey=${process.env.API_KEY}`
       );
       
       if (!response.ok) {
