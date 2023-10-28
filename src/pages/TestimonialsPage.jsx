@@ -44,7 +44,7 @@ const TestimonialPage = () => {
     <div id='testimonials' className="container mx-auto p-4">
       <h1 className="text-3xl font-semibold mb-4 text-center">Testimonials:</h1>
 
-      <div className="grid grid-cols-3 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
