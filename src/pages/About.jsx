@@ -20,7 +20,7 @@ const About = () => {
         <h1 className="text-3xl font-bold mb-6 text-center">About</h1>
         <div className="bg-grey-600 p-6 rounded-lg shadow-md">
           <img src={profile} alt="Arber Totraku" className="w-90 h-90 rounded mx-auto mb-5" />
-          <p className="text-white text-center mt-4">
+          <p id='about' className="text-white text-center mt-4">
             Hi, I'm Arber Totraku and I live in Berlin, Germany. I am a passionate full stack web developer with a focus on creating
             user-friendly and visually appealing web applications. I have a
             strong background in HTML, CSS, TailwindCss, Bootstrap, JavaScript, Typescript, Angular for Frontent technologies also NodeJs, ExpressJs and MongoDB for Backend.

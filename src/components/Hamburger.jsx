@@ -4,10 +4,10 @@ import Button from './Button.jsx';
 const Nav = () => {
     let Links =[
       {name:"HOME",link:"/"},
-      {name:"SERVICE",link:"/service"},
-      {name:"ABOUT",link:"/about"},
-      {name:"TESTIMONIALS",link:"/blog"},
-      {name:"CONTACT",link:"/contact"},
+      {name:"SERVICE",link:"/#services"},
+      {name:"ABOUT",link:"/#about"},
+      {name:"TESTIMONIALS",link:"/#testimonials"},
+      {name:"CONTACT",link:"/#contact"},
     ];
     let [open,setOpen]=useState(false);
   return (

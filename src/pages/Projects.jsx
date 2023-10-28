@@ -60,7 +60,7 @@ const projectsData = {
 const Projects = () => {
   return (
     <>
-        <div className="container mx-auto p-3 justify-center bg-gray-800 text-white text-center" >
+        <div  id="projects" className="container mx-auto p-4 justify-center bg-gray-800 text-white text-center" >
     <h1 className="text-4xl bold mb-2">My projects:</h1>
 
 
@@ -70,7 +70,7 @@ const Projects = () => {
       </div>
 
       </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-gray-800 text-white">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-gray-800 text-white m-4 container mx-auto ">
      
       {projectsData.projects.map((project) => (
         <div
