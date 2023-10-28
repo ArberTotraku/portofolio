@@ -23,7 +23,7 @@ const About = () => {
           <p className="text-white text-center mt-4">
             Hi, I'm Arber Totraku and I live in Berlin, Germany. I am a passionate full stack web developer with a focus on creating
             user-friendly and visually appealing web applications. I have a
-            strong background in HTML, CSS, JavaScript, and modern web technologies.
+            strong background in HTML, CSS, TailwindCss, Bootstrap, JavaScript, Typescript, Angular for Frontent technologies also NodeJs, ExpressJs and MongoDB for Backend.
           </p>
           <p className="text-white text-center mt-4">
             In my free time, I enjoy traveling, swimming and playing chess. So if you think that you're better than me in chess, you are absolutely right. I am also a big fan of espresso. I think that espresso has the magic to turn coffee into code.

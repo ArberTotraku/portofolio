@@ -8,10 +8,17 @@ const Footer = () => {
         <h1 className='text-4xl bold text-center mt-5'>Connect with me:</h1>
         <Form/>
       
+<div className='container text-right bg-gray-600 p-4'>
 
-<span> <SocialIcon  url='https://github.com/arbertotraku' target='_blank'/> </span>
+  
+
+  Reach me via:
+
+
+<span > <SocialIcon  url='https://github.com/arbertotraku' target='_blank'/> </span>
 <span> <SocialIcon url='https://linkedin.com/in/arbertotraku 'target='_blank'/> </span>
 <span> <SocialIcon url='https://wa.me/4917630460502' target='_blank'/> </span>
+</div>
     
     </div>
   )

@@ -32,13 +32,13 @@ const projectsData = {
     },
     {
       id: 4,
-      title: "Ping Pong game",
+      title: "Ping Pong game (PC only)",
       imageSrc: PingPong,
       link: "https://ping-pong-arcade.vercel.app",
     },
     {
       id: 5,
-      title: "Snake game",
+      title: "Snake game (PC only)",
       imageSrc: Snake,
       link: "https://snake-game-rust-five.vercel.app",
     },
