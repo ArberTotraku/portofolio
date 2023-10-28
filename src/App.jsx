@@ -13,7 +13,7 @@ import Contact from "./pages/Contact.jsx"
 // import Home from "./pages/Home.jsx";
 // import HamburgerMenu from './components/HamburgerMenu.jsx'
 // import Navbar from './pages/Navbar.jsx'
-import ComingSoon from "./pages/ComingSoon.jsx"
+import Services from "./pages/Services.jsx"
 import TestimonialsPage from "./pages/TestimonialsPage.jsx";
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
       <About />
       <Projects />
       {/* <ChatComponent/> */}
-<ComingSoon/>
+<Services/>
       <Contact/>
       <TestimonialsPage/>
       <Footer />
