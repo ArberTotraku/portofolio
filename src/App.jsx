@@ -6,7 +6,7 @@ import "./App.css";
 import Header from "./pages/Header.jsx";
 import Nav from "../src/components/Hamburger.jsx";
 import Contact from "./pages/Contact.jsx"
-import Blog from "./pages/Blog.jsx"
+// import Blog from "./pages/Blog.jsx"
 // import ChatComponent from "./components/ChatComponent.jsx";
 // import { Route , Routes} from "react-router-dom";
 // import Layout from "./pages/Layout.jsx";
@@ -14,6 +14,7 @@ import Blog from "./pages/Blog.jsx"
 // import HamburgerMenu from './components/HamburgerMenu.jsx'
 // import Navbar from './pages/Navbar.jsx'
 import ComingSoon from "./pages/ComingSoon.jsx"
+import TestimonialsPage from "./pages/TestimonialsPage.jsx";
 
 const App = () => {
   return (
@@ -28,7 +29,7 @@ const App = () => {
       {/* <ChatComponent/> */}
 <ComingSoon/>
       <Contact/>
-      <Blog/>
+      <TestimonialsPage/>
       <Footer />
      
 {/* 
