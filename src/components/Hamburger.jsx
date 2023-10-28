@@ -18,6 +18,7 @@ const Nav = () => {
         top: target.offsetTop - 70, // Adjust the offset as needed
         behavior: 'smooth',
       });
+      setOpen(false)
     }
   };
 
