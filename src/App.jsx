@@ -15,6 +15,7 @@ import Contact from "./pages/Contact.jsx"
 // import Navbar from './pages/Navbar.jsx'
 import Services from "./pages/Services.jsx"
 import TestimonialsPage from "./pages/TestimonialsPage.jsx";
+import ScrollToTopButton from "./utils/ScrollToTopButton.jsx";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
 <Services/>
       <TestimonialsPage/>
       <Contact/>
+      <ScrollToTopButton/>
       <Footer />
      
 {/* 
