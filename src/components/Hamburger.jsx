@@ -29,7 +29,11 @@ const Nav = () => {
         <span className='text-3xl text-indigo-600 mr-1 pt-2 text-white'>
         <ion-icon name="logo-ionic"></ion-icon>
         </span>
+        <a href="#about
+        ">
+
      Portofolio
+        </a>
       </div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
