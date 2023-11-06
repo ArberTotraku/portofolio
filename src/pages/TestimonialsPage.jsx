@@ -58,7 +58,7 @@ const TestimonialPage = () => {
         
         </p>
 
-      <Slider {...sliderSettings} className="mb-3 mt-3">
+      <Slider {...sliderSettings} className="mb-3 mt-3 p-2 m-10">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-gray-500 rounded-lg p-9 mx-auto space-between shadow-md">
             <div className="mb-2">
@@ -70,7 +70,7 @@ const TestimonialPage = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2 text-black text-center">{testimonial.name}</h3>
             <p className="text-white font-semibold text-center">Current affiliation: {testimonial.company}</p>
-            <p className="mt-2 text-white">"{testimonial.text}"</p>
+            <p className="mt-2 text-white text-center">"{testimonial.text}"</p>
           </div>
         ))}
       </Slider>
