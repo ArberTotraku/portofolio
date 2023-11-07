@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import Button from './Button.jsx';
+import { SocialIcon } from 'react-social-icons';
+
 
 const Nav = () => {
     let Links =[
@@ -53,6 +55,13 @@ const Nav = () => {
           ))
         }
         <Button>
+        <SocialIcon
+      url={`tel:${'004917630460502'}`}
+      style={{ width: 30, height: 30 }}  />
+      // Adjust the size as needed
+
+
+         
           Get Started
         </Button>
       </ul>
