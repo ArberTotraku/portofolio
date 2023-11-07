@@ -13,7 +13,7 @@ const projectsData = {
     {
       id: 1,
       title: "Budget application",
-      imageSrc: Banking,
+      imageSrc: Budget,
       link: "https://control-your-budget-liard.vercel.app",
     //   description: "This is a landing page of a banking application",
     //   technologies:"React, TailwindCSS, Javascript"
@@ -21,7 +21,7 @@ const projectsData = {
     {
       id: 2,
       title: "Banking application",
-      imageSrc: Budget,
+      imageSrc: Banking,
       link: "https://banking-app-jade-phi.vercel.app",
     },
     {
