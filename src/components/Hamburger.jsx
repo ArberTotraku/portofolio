@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Button from './Button.jsx';
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 
 
 const Nav = () => {
@@ -55,10 +55,10 @@ const Nav = () => {
           ))
         }
         <Button>
-        <SocialIcon
-      url={`tel:${'004917630460502'}`}
-      style={{ width: 30, height: 30 }}  />
-      // Adjust the size as needed
+        {/* <SocialIcon
+      url={`cell:${'004917630460502'}`}
+      style={{ width: 30, height: 30 }}  /> */}
+
 
 
          
