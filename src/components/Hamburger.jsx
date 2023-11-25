@@ -5,7 +5,7 @@ import Button from './Button.jsx';
 
 const Nav = () => {
     let Links =[
-      {name:"HOME",link:"#about"},
+  
       {name:"SERVICE",link:"#services"},
       {name:"ABOUT",link:"#about"},
       {name:"TESTIMONIALS",link:"#testimonials"},
