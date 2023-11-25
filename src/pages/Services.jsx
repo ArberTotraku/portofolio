@@ -7,7 +7,7 @@ const Services = () => {
     { name: "CSS", icon: <FaCss3 /> },
     { name: "JavaScript", icon: <FaJs /> },
     { name: "React", icon: <FaReact /> },
-    { name: "Angular", icon: <FaAngular /> },
+    { name: "AngularJs", icon: <FaAngular /> },
     { name: "TypeScript", icon: <FaFileCode /> },
     { name: "REST API", icon: <FaDatabase /> },
   ];
