@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div className="container mx-auto shawdow-md rounded justify-center my-3 py-5 text-center">
       <h1  id="contact" className="text-4xl font-bold mt-5">Connect with me:</h1>
+      <i className='text-center'>This is not yet connected with backend...</i>
       <Form />
 
       <div className="text-right bg-gray-600 p-4 mt-5"> Reach me via:
